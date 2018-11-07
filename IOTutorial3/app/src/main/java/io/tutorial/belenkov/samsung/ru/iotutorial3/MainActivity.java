@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
 
             readersWritersDemo.write("Hello nigga");
             readersWritersDemo.read();
-            readersWritersDemo.write(((TextView)findViewById(R.id.fileInfoTextView)).getText().toString());
         } catch (IOException e) {
             Toast.makeText(this, e.getLocalizedMessage(), Toast.LENGTH_LONG).show();
         }
