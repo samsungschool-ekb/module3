@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BaseMPMP">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="BaseMPWC">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="VerticalLL" parent="BaseMPMP">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="HorizontalLL" parent="BaseMPMP">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="InputButton" parent="Base.Widget.AppCompat.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:foreground">@drawable/button_foreground</item>
+    </style>
+</resources>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/VerticalLL"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        style="@style/BaseMPMP"
+        android:layout_weight="2"
+        app:cardBackgroundColor="@color/colorWhite"
+        app:cardElevation="8dp">
+        <EditText
+            style="@style/BaseMPWC"
+            android:layout_gravity="bottom"
+            android:background="@null"
+            android:gravity="right"
+            android:hint="display"
+            android:padding="16sp"
+            android:textSize="48sp" />
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        style="@style/VerticalLL"
+        android:layout_weight="1">
+
+        <LinearLayout
+            style="@style/HorizontalLL"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button7"
+                style="@style/InputButton"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/button8"
+                style="@style/InputButton"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/button9"
+                style="@style/InputButton"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/buttonDivide"
+                style="@style/InputButton"
+                android:text="/" />
+        </LinearLayout>
+        <LinearLayout
+            style="@style/HorizontalLL"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button4"
+                style="@style/InputButton"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/button5"
+                style="@style/InputButton"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/button6"
+                style="@style/InputButton"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/buttoMultiple"
+                style="@style/InputButton"
+                android:text="*" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/HorizontalLL"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button1"
+                style="@style/InputButton"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/InputButton"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/InputButton"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/buttonPlus"
+                style="@style/InputButton"
+                android:text="+" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/HorizontalLL"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/buttonDot"
+                style="@style/InputButton"
+                android:text="." />
+
+            <Button
+                android:id="@+id/button0"
+                style="@style/InputButton"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/buttonEqually"
+                style="@style/InputButton"
+                android:text="=" />
+
+            <Button
+                android:id="@+id/buttonMinus"
+                style="@style/InputButton"
+                android:text="-" />
+
+            <Button
+                android:id="@+id/buttonCancel"
+                style="@style/InputButton"
+                android:text="ce" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
